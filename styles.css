@@ -1,0 +1,45 @@
+/* This CSS is inpired by https://www.digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css#finding-and-loading-a-font-file-from-a-hosted-service*/
+
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+    color: hsl(0, 0%, 10%);
+    line-height: 1.5;
+}
+
+.content-width,
+.img {
+    max-width: 70ch;
+    width: calc(100% - 4rem);
+    margin: 0 auto;
+}
+
+main {
+    margin-bottom: 4rem;
+}
+
+header {
+    margin-bottom: 4rem;
+    padding: 2rem 0;
+    background-color: #4C9A2A;
+    border-bottom: 4px solid #ACDF87 ;
+    color:  #d1ffb1;
+}
+
+header p {
+    color:hsl#68BB59;
+}
+
+header .title-centered {
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    line-height: 1.25;
+    text-transform: uppercase; 
+}
+
+h2, h3, h4 {
+    color: #4C9A2A;
+}
