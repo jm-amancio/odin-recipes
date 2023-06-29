@@ -7,11 +7,18 @@ body {
     line-height: 1.5;
 }
 
-.content-width,
-.img {
+.content-width {
     max-width: 70ch;
     width: calc(100% - 4rem);
     margin: 0 auto;
+}
+
+.content-width img {
+    display: block; 
+    width: 500px; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 main {
@@ -42,4 +49,31 @@ h1, h2, h3, h4 {
 
 h2, h3, h4 {
     color: #4C9A2A;
+}
+
+
+/* just for index */
+
+.links-list a {
+    background-color: #4C9A2A;
+    color: #fff;
+    
+    width: 100px;
+    padding: 1em 2em;
+    border: 1px solid black;
+    margin: 5px auto;
+
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.links-list li {
+    float: left;
+    overflow: hidden;
+}
+
+.links-list a:hover {
+    background-color: #2a8105;
+    color: #fff;
 }
